@@ -5,7 +5,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import Birch
 from sklearn.metrics import silhouette_score
 from sklearn.decomposition import PCA
-from statsmodels.stats.outliers_influence import variance_inflation_factor
 import plotly.express as px
 from cftree import CFTree
 import joblib
